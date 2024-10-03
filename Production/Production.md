@@ -30,7 +30,7 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
 
 - Below are the Resource Usage Policy and Alerts outputs for the respective resources.
 
-  1. Instance: Created more than one instance, but the usage policy had restrictions that allowed the creation of only one instance.
+  1. **Instance:** The metric used is the **count of instances.**
 
      - Policy:
 
@@ -67,7 +67,48 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
 
        ![](./img/04.png)
 
+       Alerts Received: 
+        
        ![](./img/05.png)
-      
+
+  2. **Instance:** The metrics used are **OCPU Cores** and **Memory (GB).**
+
+     - Output:
+       Cloud Screenshot: 
+
+       ![](./img/06.png)
+
+       Alerts Received: 
+
+       ![](./img/07.png)
+
+  3. **Bucket:** The metric used is the Storage (GB).   
+
+     - Policy:
+
+      ```
+      [
+        {
+        "ResourceType": "OCI.Bucket",
+        "Parameter": [
+            {
+            "Name": "max-storage-gb",
+            "Value": "1"
+            }
+          ]
+        }
+      ]
+      ```
+
+     - Output:
+       Cloud Screenshot: 
+
+       ![](./img/08.png)
+
+       Alerts : Not received.
+
+  4. **Boot Volume:** The metric used is VPUs (per GB) and Volume (GB).
+
+
 
       
