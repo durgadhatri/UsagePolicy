@@ -71,7 +71,7 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
         
        ![](./img/05.png)
 
-  2. **Instance:** The metrics used are **OCPU Cores** and **Memory (GB).**
+     **Instance:** The metrics used are **OCPU Cores** and **Memory (GB).**
 
      - Output:
        Cloud Screenshot: 
@@ -82,7 +82,7 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
 
        ![](./img/07.png)
 
-  3. **Bucket:** The metric used is the Storage (GB).   
+  2. **Bucket:** The metric used is the **Storage (GB).  ** 
 
      - Policy:
 
@@ -107,8 +107,71 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
 
        Alerts : Not received.
 
-  4. **Boot Volume:** The metric used is VPUs (per GB) and Volume (GB).
+  3. **Boot Volume:** The metric used is **VPUs (per GB)** and **Volume (GB).**
 
+     - Policy:
 
+      ```
+      [
+        {
+          "ResourceType": "OCI.BootVolume",
+          "Parameter": [
+            {
+              "Name": "max-volume-gb",
+              "Value": "50"
+            },
+            {
+              "Name": "max-vpus",
+              "Value": "10"
+            }
+          ]
+        }
+      ]
+      ```
 
+     - Output:
+       Cloud Screenshot: 
+
+       ![](./img/09.png)
+
+       Alerts Received: 
+        
+       ![](./img/10.png)
+
+  4. **Block Volume:** The metric used is **VPUs (per GB)** and **Volume (GB).**
+
+    - Policy:
+
+      ```
+      [
+        {
+          "ResourceType": "OCI.Volume",
       
+          "Parameter": [
+            {
+              "Name": "max-volume-gb",
+      
+              "Value": "50"
+            },
+      
+            {
+              "Name": "max-vpus",
+      
+              "Value": "10"
+            }
+          ]
+        }
+      ]
+      ```
+
+     - Output:
+       Cloud Screenshot: 
+
+       ![](./img/11.png)
+
+       Alerts Received: 
+        
+       ![](./img/12.png)
+
+5. **Boot Volume Backup:** The metric used is **· Volume (GB).**
+
