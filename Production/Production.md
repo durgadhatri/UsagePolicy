@@ -108,7 +108,7 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
 
        ![](./img/08.png)
 
-       Alerts : Not received.
+       Alerts : Not received.      
 
 3. **Boot Volume:** The metric used is **VPUs (per GB)** and **Volume (GB).**
 
@@ -206,7 +206,35 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
         
        ![](./img/14.png)
 
-6. Below is the usage policy URL for all OCI resources, which includes: VolumeBackup, BootVolumeBackup, BootVolume, Functions, DB System, Autonomous Database, PostgreSQL DB System, File System, Volume, Bucket, and Instance.
+6. **Block Volume Backup:** The metric used is **Volume (GB).** 
+
+   - Policy:
+
+      ```
+      [
+        {
+          "ResourceType": "OCI.VolumeBackup",
+      
+          "Parameter": [
+            {
+              "Name": "max-volume-gb",
+      
+              "Value": "6"
+            }
+          ]
+        }
+      ]
+      ```
+
+   - Output:
+
+       Cloud Screenshot: 
+
+       ![](./img/16.png)
+
+       Alerts: Not Received.    
+
+7. Below is the usage policy URL for all OCI resources, which includes: VolumeBackup, BootVolumeBackup, BootVolume, Functions, DB System, Autonomous Database, PostgreSQL DB System, File System, Volume, Bucket, and Instance.
 
   - Policy URL: https://rcbstore16.blob.core.windows.net/onion/usagepolicyOCI.json 
 
@@ -217,5 +245,7 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
        **PostgreSQL DB System, DB System, Autonomous Database:**
         
        ![](./img/15.png)
+
+
 
 
