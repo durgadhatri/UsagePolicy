@@ -28,11 +28,11 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
 
 ### Usage Policy Uand Alerts Outputs
 
-- Below are the Resource Usage Policy and Alerts outputs for the respective resources.
+Below are the Resource Usage Policy and Alerts outputs for the respective resources.
 
-  1. **Instance:** The metric used is the **count of instances.**
+1. **Instance:** The metric used is the **count of instances.**
 
-     - Policy:
+   - Policy:
 
       ```
       [
@@ -62,7 +62,7 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
       ] 
       ```
 
-     - Output:
+   - Output:
 
        Cloud Screenshot: 
 
@@ -72,9 +72,9 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
         
        ![](./img/05.png)
 
-     **Instance:** The metrics used are **OCPU Cores** and **Memory (GB).**
+   **Instance:** The metrics used are **OCPU Cores** and **Memory (GB).**
 
-     - Output:
+   - Output:
 
        Cloud Screenshot: 
 
@@ -84,9 +84,9 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
 
        ![](./img/07.png)
 
-  2. **Bucket:** The metric used is the **Storage (GB).** 
+2. **Bucket:** The metric used is the **Storage (GB).** 
 
-     - Policy:
+   - Policy:
 
       ```
       [
@@ -102,7 +102,7 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
       ]
       ```
 
-     - Output:
+   - Output:
 
        Cloud Screenshot: 
 
@@ -110,9 +110,9 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
 
        Alerts : Not received.
 
-  3. **Boot Volume:** The metric used is **VPUs (per GB)** and **Volume (GB).**
+3. **Boot Volume:** The metric used is **VPUs (per GB)** and **Volume (GB).**
 
-     - Policy:
+   - Policy:
 
       ```
       [
@@ -132,7 +132,7 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
       ]
       ```
 
-     - Output:
+   - Output:
 
        Cloud Screenshot: 
 
@@ -142,9 +142,9 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
         
        ![](./img/10.png)
 
-  4. **Block Volume:** The metric used is **VPUs (per GB)** and **Volume (GB).**
+4. **Block Volume:** The metric used is **VPUs (per GB)** and **Volume (GB).**
 
-    - Policy:
+   - Policy:
 
       ```
       [
@@ -168,7 +168,7 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
       ]
       ```
 
-     - Output:
+   - Output:
 
        Cloud Screenshot: 
 
@@ -196,7 +196,7 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
       ]
       ```
 
-     - Output:
+   - Output:
 
        Cloud Screenshot: 
 
@@ -206,11 +206,11 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
         
        ![](./img/14.png)
 
-Below is the usage policy URL for all OCI resources, which includes: VolumeBackup, BootVolumeBackup, BootVolume, Functions, DB System, Autonomous Database, PostgreSQL DB System, File System, Volume, Bucket, and Instance.
+6. Below is the usage policy URL for all OCI resources, which includes: VolumeBackup, BootVolumeBackup, BootVolume, Functions, DB System, Autonomous Database, PostgreSQL DB System, File System, Volume, Bucket, and Instance.
 
-   - Policy URL: https://rcbstore16.blob.core.windows.net/onion/usagepolicyOCI.json 
+  - Policy URL: https://rcbstore16.blob.core.windows.net/onion/usagepolicyOCI.json 
 
-   - Output:
+  - Output:
 
        Alerts Received: 
 
