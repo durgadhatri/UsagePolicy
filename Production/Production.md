@@ -200,21 +200,16 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
         
        ![](./img/14.png)
 
-5. **PostgreSQL:** The metric used is **· Volume (GB).** 
+5. Below is the usage policy URL for all OCI resources, which include: VolumeBackup, BootVolumeBackup, BootVolume, Functions, DB System, Autonomous Database, PostgreSQL DB System, File System, Volume, Bucket, and Instance.
 
-  **AutonommusDB:** The metric used is **· Volume (GB).**
-
-  **DBsystem:** The metric used is **· Volume (GB).**
-
-   - Policy URL:
+   - Policy URL: https://rcbstore16.blob.core.windows.net/onion/usagepolicyOCI.json 
 
    - Output:
-       Cloud Screenshot: 
-
-       ![](./img/15.png)
 
        Alerts Received: 
+
+       **PostgreSQL DB System, DB System, Autonomous Database:**
         
-       ![](./img/16.png)
+       ![](./img/15.png)
 
 
