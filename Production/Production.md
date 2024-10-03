@@ -84,7 +84,7 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
 
        ![](./img/07.png)
 
-  2. **Bucket:** The metric used is the **Storage (GB).  ** 
+  2. **Bucket:** The metric used is the **Storage (GB).** 
 
      - Policy:
 
