@@ -63,6 +63,7 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
       ```
 
      - Output:
+
        Cloud Screenshot: 
 
        ![](./img/04.png)
@@ -74,6 +75,7 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
      **Instance:** The metrics used are **OCPU Cores** and **Memory (GB).**
 
      - Output:
+
        Cloud Screenshot: 
 
        ![](./img/06.png)
@@ -101,6 +103,7 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
       ```
 
      - Output:
+
        Cloud Screenshot: 
 
        ![](./img/08.png)
@@ -130,6 +133,7 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
       ```
 
      - Output:
+
        Cloud Screenshot: 
 
        ![](./img/09.png)
@@ -165,6 +169,7 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
       ```
 
      - Output:
+
        Cloud Screenshot: 
 
        ![](./img/11.png)
@@ -192,6 +197,7 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
       ```
 
      - Output:
+
        Cloud Screenshot: 
 
        ![](./img/13.png)
