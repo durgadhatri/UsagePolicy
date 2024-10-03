@@ -175,3 +175,46 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
 
 5. **Boot Volume Backup:** The metric used is **· Volume (GB).**
 
+   - Policy:
+
+      ```
+      [
+        {
+          "ResourceType": "OCI.BootVolumeBackup",
+          "Parameter": [
+            {
+              "Name": "max-volume-gb",
+              "Value": "4"
+            }
+          ]
+        }
+      ]
+      ```
+
+     - Output:
+       Cloud Screenshot: 
+
+       ![](./img/13.png)
+
+       Alerts Received: 
+        
+       ![](./img/14.png)
+
+5. **PostgreSQL:** The metric used is **· Volume (GB).** 
+
+  **AutonommusDB:** The metric used is **· Volume (GB).**
+
+  **DBsystem:** The metric used is **· Volume (GB).**
+
+   - Policy URL:
+
+   - Output:
+       Cloud Screenshot: 
+
+       ![](./img/15.png)
+
+       Alerts Received: 
+        
+       ![](./img/16.png)
+
+
