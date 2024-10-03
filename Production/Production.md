@@ -25,3 +25,16 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
 4. Then, click the **Submit** button.
 
    ![](./img/03.png)
+
+### Usage Policy URLs and Alerts Outputs
+
+- Below are the Resource Usage Policy URL and Alerts outputs for the respective resources.
+
+  1. Instance:
+
+     - URL:
+     - Output:
+       
+      
+
+      
