@@ -26,15 +26,48 @@ OCI Resource Usage Policy is used to monitor the cores and clusters of OCI resou
 
    ![](./img/03.png)
 
-### Usage Policy URLs and Alerts Outputs
+### Usage Policy Uand Alerts Outputs
 
-- Below are the Resource Usage Policy URL and Alerts outputs for the respective resources.
+- Below are the Resource Usage Policy and Alerts outputs for the respective resources.
 
-  1. Instance:
+  1. Instance: Created more than one instance, but the usage policy had restrictions that allowed the creation of only one instance.
 
-     - URL:
+     - Policy:
+
+      ```
+      [
+        {
+          "ResourceType": "OCI.Instance",
+      
+          "Parameter": [
+            {
+              "Name": "max-ocpu-cores",
+      
+              "Value": "1"
+            },
+      
+            {
+              "Name": "max-memory-gb",
+      
+              "Value": "32"
+            },
+      
+            {
+              "Name": "max-instance-count",
+      
+              "Value": "1"
+            }
+          ]
+        }
+      ] 
+      ```
+
      - Output:
-       
+       Cloud Screenshot: 
+
+       ![](./img/04.png)
+
+       ![](./img/05.png)
       
 
       
