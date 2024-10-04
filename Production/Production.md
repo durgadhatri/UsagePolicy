@@ -224,6 +224,7 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
           ]
         }
       ]
+      
       ```
 
    - Output:
@@ -232,9 +233,31 @@ Below are the Resource Usage Policy and Alerts outputs for the respective resour
 
        ![](./img/16.png)
 
-       Alerts: Not Received.    
+       Alerts: Not Received.
 
-7. Below is the usage policy URL for all OCI resources, which includes: VolumeBackup, BootVolumeBackup, BootVolume, Functions, DB System, Autonomous Database, PostgreSQL DB System, File System, Volume, Bucket, and Instance.
+     
+7. **File System** : The metric used is **Storage (GB).**
+
+   - Policy
+   
+   ```
+   [
+      {
+        "ResourceType": "OCI.FileSystem",
+        "Parameter": [
+            {
+                "Name": "max-storage-gb",
+                "Value": "1"
+            }
+        ]
+      }
+   ]
+   ```
+   
+   - Output
+   
+    
+8. Below is the usage policy URL for all OCI resources, which includes: VolumeBackup, BootVolumeBackup, BootVolume, Functions, DB System, Autonomous Database, PostgreSQL DB System, File System, Volume, Bucket, and Instance.
 
    - Policy URL: https://cloudlabs-prod-templates-s3.s3.amazonaws.com/WIZ/test/OCI+Usage+Policy/usagepolicyOCI.json 
 
